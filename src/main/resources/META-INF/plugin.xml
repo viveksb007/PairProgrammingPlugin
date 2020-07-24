@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.viveksb007.PairProgrammingPlugin</id>
+    <name>Pair Programming</name>
+    <version>0.1</version>
+    <vendor email="viveksbhadauria007@gmail.com" url="https://viveksb007.github.io/">viveksb007</vendor>
+
+    <description><![CDATA[
+    This plugin is intended to provide Pair Programming functionality over LAN.
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action class="com.viveksb007.HelloAction" text="Hello World" description="I make Hello World dialog">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
