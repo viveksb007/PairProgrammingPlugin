@@ -17,7 +17,7 @@
     </extensions>
 
     <actions>
-        <action class="com.viveksb007.HelloAction" text="Hello World" description="I make Hello World dialog">
+        <action class="com.viveksb007.PairProgrammingAction" text="Pair Programming">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
     </actions>
